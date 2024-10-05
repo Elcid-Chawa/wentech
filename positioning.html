@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Positioning</title>
+    <style>
+      #rwanda {
+        color: white;
+        background-color: blue;
+        float: left;
+      }
+      #burundi {
+        color: white;
+        background-color: green;
+        position: relative;
+        float: right;
+        /* top:100px; */
+      }
+      #uganda {
+        color: white;
+        background-color: red;
+        clear: both;
+      }
+      .flag {
+        height: 500px;
+        margin-top: 10px;
+      }
+      #blueTop {
+        width: 100%;
+        height: 200px;
+        background-color: #0476b2;
+        position: relative;
+      }
+      #yellowMiddle {
+        width: 100%;
+        height: 150px;
+        background-color: #EDCC1A;
+      }
+      #greenButtom {
+        width: 100%;
+        height: 150px;
+        background-color: #049B4E;
+      }
+      #sun{
+        width:10%;
+        background-color: #EDCC1A;
+        position: absolute;
+        height: 30%;
+        border-radius: 100%;
+        top: 10%;
+        right: 2%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="rwanda">Rwanda</div>
+    <div id="burundi">Burundi</div>
+    <div id="uganda">Uganda</div>
+    <div class="flag">
+      <div id="blueTop"><div id="sun"></div></div>
+      <div id="yellowMiddle"></div>
+      <div id="greenButtom"></div>
+    </div>
+  </body>
+</html>
